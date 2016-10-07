@@ -14,6 +14,7 @@
 		80CB574D1DA72BEB00A9D501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CB574B1DA72BEB00A9D501 /* LaunchScreen.storyboard */; };
 		80CB57551DA72C1600A9D501 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CB57541DA72C1600A9D501 /* SpriteKit.framework */; };
 		80CB57571DA7328F00A9D501 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CB57561DA7328F00A9D501 /* GameScene.swift */; };
+		80CB57591DA77C1200A9D501 /* knock_brush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 80CB57581DA77C1200A9D501 /* knock_brush.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		80CB574E1DA72BEB00A9D501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80CB57541DA72C1600A9D501 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		80CB57561DA7328F00A9D501 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		80CB57581DA77C1200A9D501 /* knock_brush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = knock_brush.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		80CB57411DA72BEB00A9D501 /* FlappyBird */ = {
 			isa = PBXGroup;
 			children = (
+				80CB57581DA77C1200A9D501 /* knock_brush.mp3 */,
 				80CB57421DA72BEB00A9D501 /* AppDelegate.swift */,
 				80CB57441DA72BEB00A9D501 /* ViewController.swift */,
 				80CB57461DA72BEB00A9D501 /* Main.storyboard */,
@@ -131,6 +134,7 @@
 			files = (
 				80CB574D1DA72BEB00A9D501 /* LaunchScreen.storyboard in Resources */,
 				80CB574A1DA72BEB00A9D501 /* Assets.xcassets in Resources */,
+				80CB57591DA77C1200A9D501 /* knock_brush.mp3 in Resources */,
 				80CB57481DA72BEB00A9D501 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +265,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.issei.komatsu.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "64618ac5-6775-4e07-b343-25c911abc905";
 			};
 			name = Debug;
 		};
@@ -272,6 +277,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.issei.komatsu.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "64618ac5-6775-4e07-b343-25c911abc905";
 			};
 			name = Release;
 		};
